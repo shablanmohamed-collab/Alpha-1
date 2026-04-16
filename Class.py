@@ -246,7 +246,70 @@ b = 10
 #         continue
 #     print(i)
 
-i=0
-for i in range(0,5):
-    pass
-print(i)
+# i=0
+# for i in range(0,5):
+#     pass
+# print(i)
+
+
+"""/////////////////////////"""
+
+# count = 0
+# # Windsurf: Refactor | Explain | Generate Docstring | X
+# def increment(): 
+#     global count
+#     count += 1
+
+
+# increment()
+# increment()
+# print(count)
+
+# def recursive_function(parameters):
+#     if base_case_conditions:
+#         return value
+#     else:
+#         return recursive_function(modified_parameters)
+    
+# def factorial(n):
+#     if n == 0: 
+#         return 1
+#     else:
+#         return n * factorial(n - 1) 
+# print(factorial(5))
+
+# def sum_upto(n):
+#     if n == 1: 
+#         return 1
+#     else:
+#         return n * factorial(n - 1) 
+# print(factorial(5))
+
+# def sum_list(lst):
+#     if len(lst) == 0:
+#        return 0
+#     else:
+#         return lst[0] + sum_list(lst[1:])
+    
+#     print(sum_list([1, 2, 3, 4]))
+    
+    
+# def revers_string(s):
+#     if len(5) == 0:
+#        return s
+#     else:
+#         return revers_string(s[1:]) + s[0]
+# print(revers_string("hello"))
+
+
+# lambda arguments: expression 
+    
+# square = lambda x: x * x
+# print(square(5))
+
+# add = lambda a, b: a + b
+# print(add(3, 5))
+
+numbers = [1, 2, 3, 4, 5]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+print(even_numbers)

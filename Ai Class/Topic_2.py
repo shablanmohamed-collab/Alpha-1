@@ -6,15 +6,15 @@
 # print("Age:", age)
 # print("City:", city)
 
-product = input("Enter product name : ")
-price = int(input("Enter price: "))
-quantity = int(input("Enter quantity: "))
+# product = input("Enter product name : ")
+# price = int(input("Enter price: "))
+# quantity = int(input("Enter quantity: "))
 
 
-total = price * quantity
+# total = price * quantity
 
-print("Product:",product)
-print("Price:",price)
-print("Quandtity:", quantity)
-print("Total Value:", total)
+# print("Product:",product)
+# print("Price:",price)
+# print("Quandtity:", quantity)
+# print("Total Value:", total)
 
