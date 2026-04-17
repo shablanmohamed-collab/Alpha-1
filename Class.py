@@ -310,6 +310,69 @@ b = 10
 # add = lambda a, b: a + b
 # print(add(3, 5))
 
-numbers = [1, 2, 3, 4, 5]
-even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
-print(even_numbers)
+# numbers = [1, 2, 3, 4, 5]
+# even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+# print(even_numbers)
+
+# a = ["banana","apple","mango",1,2,1]
+
+# print(len(a))
+# print(a[2])
+# print(a[0:5])
+# print(a[0:5:2])
+# print(a[2:5])
+# print(a[2:])
+# print(a[-5])
+# print(a[::-1])
+
+# a = ["banana","apple","mango"]
+
+# concatention
+# c = a+["oramge","kiwi","lemon"]
+# print(c)
+
+# repetation 
+# print(a*3)
+
+# membership
+# print("apple" in a)
+# print("apple"not in a)
+
+# a = ["banana","apple","mango"]
+# a.append("orange")
+# a.insert(1,"kiwi")
+# a.extend(["orange","kiwi","lemon"])
+# print(a)
+
+# a.remove("apple")
+# a.pop(2)
+# a.clear()
+# print(a)
+
+# a.sort()
+# a.reverse()
+# print(a)
+# print(a.index("kiwi"))
+# print(a.index("mango"))
+# print(a.count("apple"))
+
+# a = ["banana","apple","mango","apple"]
+
+# for i in a:
+#     print(i,end = " ")
+
+# index = 0
+# while index < len(a):
+#     print(a[index])
+#     index += 1
+
+# picnic_bags = [["sandwich", "juice"], ["chips", "soda"], ["cookies", "milk"]]
+# print(picnic_bags[1][0])
+
+# picnic_bags[1] = "chocolate"
+# print(picnic_bags[1][0])
+
+# a = [1,10,12,30,45,2]
+# print(max(a))
+# print(min(a))
+# print(sum(a))
